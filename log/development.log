@@ -5645,3 +5645,111 @@ Processing by PrescriptionsController#edit as HTML
   Rendered prescriptions/edit.html.erb within layouts/application (2.6ms)
   Rendered layouts/_navigation.html.erb (0.3ms)
 Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/dashboard" for 127.0.0.1 at 2016-12-09 14:20:02 +0600
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/doctors/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/doctors/dashboard" for 127.0.0.1 at 2016-12-09 14:20:02 +0600
+Processing by DoctorsController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered doctors/_appointments_panel.html.erb (0.0ms)
+  Rendered doctors/_reports_panel.html.erb (0.1ms)
+  Rendered doctors/_messages_panel.html.erb (0.0ms)
+  Rendered doctors/_todo_panel.html.erb (0.0ms)
+  Rendered doctors/dashboard.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/doctors/dashboard" for 127.0.0.1 at 2016-12-09 14:23:04 +0600
+Processing by DoctorsController#dashboard as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered doctors/_appointments_panel.html.erb (0.0ms)
+  Rendered doctors/_messages_panel.html.erb (0.0ms)
+  Rendered doctors/_todo_panel.html.erb (0.0ms)
+  Rendered doctors/dashboard.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/doctors.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-09 14:23:05 +0600
