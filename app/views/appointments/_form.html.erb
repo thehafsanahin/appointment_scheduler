@@ -1,0 +1,58 @@
+<div class="row form-appointment mt20">
+  <div class="col-sm-8 col-sm-offset-2">
+    <%= simple_form_for(@appointment) do |f| %>
+        <%= f.error_notification %>
+        <div class="col-sm-12 form-inputs">
+          <div class="row">
+            <div class="col-sm-3 no-hr-padding">
+              <h3><span class="label label-default">Doctor</span></h3>
+            </div>
+            <div class="col-sm-9 no-hr-padding pt10">
+              <h3><%= @params['doctor_name'] %></h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 no-hr-padding">
+              <h3><span class="label label-default">Date</span></h3>
+            </div>
+            <div class="col-sm-9 no-hr-padding pt10">
+              <h3><%= @params['date'] %></h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 no-hr-padding">
+              <h3><span class="label label-default">Time</span></h3>
+            </div>
+            <div class="col-sm-9 no-hr-padding pt10">
+              <h3><%= TimeSlot.humanize_time(@params['start_time']) %></h3>
+            </div>
+          </div>
+          <div class="row mt20">
+            <div class="col-sm-3 no-hr-padding">
+              <h3><span class="label label-default">Message</span></h3>
+            </div>
+            <div class="col-sm-9 no-hr-padding pt10">
+              <%= f.input :reason, label: false, as: :text %>
+            </div>
+          </div>
+        </div>
+        <div class="form-actions pull-right">
+          <%= f.hidden_field :date, value: @params['date'] %>
+          <%= f.hidden_field :start_time, value: @params['start_time'] %>
+          <%= f.hidden_field :end_time, value: @params['start_time'] %>
+          <%= f.hidden_field :doctor_id, value: @params['doctor_id'] %>
+
+          <div>
+            <%= link_to search_index_path, :class => 'btn btn-default' do %>
+                <span class="glyphicon glyphicon-remove"></span>
+                Cancel
+            <% end %>
+            <%= f.button :button do %>
+                <span class="glyphicon glyphicon-ok"></span>
+                Done
+            <% end %>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>

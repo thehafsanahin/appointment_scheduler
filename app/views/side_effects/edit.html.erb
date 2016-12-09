@@ -1,0 +1,13 @@
+<div class="page-header">
+  <%= link_to side_effects_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to @side_effect, :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-info-sign"></span>
+    Show
+  <% end %>
+  <h1>Editing side_effect</h1>
+</div>
+
+<%= render 'form' %>

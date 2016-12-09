@@ -1,0 +1,10 @@
+<%= f.input :email, required: true %>
+<%= f.input :password, required: true %>
+<%= f.input :password_confirmation, required: true %>
+<%= f.input :first_name, required: true %>
+<%= f.input :last_name %>
+<%= f.input :sex, as: :radio_buttons, collection: [:male, :female], wrapper_html: {class: 'inline-fields'} %>
+<%= f.input :date_of_birth, as: :date, start_year: Date.today.year - 90, end_year: Date.today.year,
+             order: [:day, :month, :year], wrapper_html: {class: 'inline-fields'}, required: true %>
+<%= f.input :contact_no, required: true %>
+<%= f.input :address %>

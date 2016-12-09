@@ -1,0 +1,9 @@
+<div class="page-header">
+  <%= link_to new_time_slot_path, :class => 'btn btn-primary' do %>
+      <span class="glyphicon glyphicon-plus"></span>
+      Add
+  <% end %>
+  <h1>Available Time Slots</h1>
+</div>
+
+<%= render partial: 'parts/time_slots', locals: {time_slots: @time_slots} %>

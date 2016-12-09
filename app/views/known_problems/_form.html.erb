@@ -1,0 +1,14 @@
+<%= simple_form_for(@known_problem) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.fields_for :problems do |problem| %>
+        <%= problem.input :name %>
+        <%= problem.input :details %>
+    <% end %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

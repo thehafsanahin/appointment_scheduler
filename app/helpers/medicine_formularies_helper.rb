@@ -1,0 +1,2 @@
+module MedicineFormulariesHelper
+end

@@ -1,0 +1,76 @@
+<div class="row patients-records">
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Patient Details</h3>
+        </span>
+      </div>
+      <div class="panel-body problems-list">
+        <h4>Name: <%= @patient.full_name %></h4>
+        <h4>Gender: <%= @patient.sex.capitalize %></h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Current Health Conditions</h3>
+        </span>
+      </div>
+      <div class="panel-body problems-list">
+        <% if @known_problems.present? %>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                <tr>
+                  <th>Problem Name</th>
+                  <th>Details</th>
+                  <th></th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <%= content_tag_for(:tr, @known_problems) do |known_problem| %>
+                    <td><%= known_problem.problem.name %></td>
+                    <td><%= known_problem.details %></td>
+                <% end %>
+                </tbody>
+              </table>
+            </div>
+        <% else %>
+            <i>No health condition added.</i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Prescriptions</h3>
+        </span>
+      </div>
+      <div class="panel-body prescription-list">
+        <i>No prescriptions found.</i>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Test Reports</h3>
+        </span>
+      </div>
+      <div class="panel-body test-reports-list">
+        <i>No test reports found.</i>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-sm-3 minimal-doctor-profile-left">
+    <div class="thumbnail">
+      <%= image_tag "http://placehold.it/150x150&text=#{user.first_name}" %>
+    </div>
+  </div>
+  <div class="col-sm-5 minimal-doctor-profile-middle hr-padding-5">
+    <div class="col-sm-12 no-hr-padding">
+      <div class="badge">Most Booked</div>
+      <div class="badge">Most Revisited</div>
+    </div>
+    <div class="col-sm-12 no-hr-padding">
+      <h3><%= link_to user.full_name, user_path(user.id) %></h3>
+      <h5 class="bold"><%= user.profile.education %></h5>
+      <h5>Experience: <%= user.profile.experience %> year(s)</h5>
+      <h5><%= user.profile.specialty %></h5>
+      <h5><%= user.profile.practice_clinic_name %></h5>
+    </div>
+  </div>
+  <div class="col-sm-4 minimal-doctor-profile-right">
+    <div class="recommendation-text-icon">
+      <span class="icon glyphicon glyphicon-thumbs-up"></span><span class="rec-count bold">98</span>Recommendations
+    </div>
+    <h5><span class="icon glyphicon glyphicon-map-marker"></span><%= user.profile.clinic_address %></h5>
+
+    <div class="mt20">
+      <%= link_to user_path(user.id) do %>
+          <button class="btn btn-primary pull-left">
+            Make An Appointment
+          </button>
+      <% end %>
+    </div>
+  </div>
+</div>
+

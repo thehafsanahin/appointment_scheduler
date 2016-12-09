@@ -1,0 +1,79 @@
+<div class="row patients-records">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Current Health Conditions</h3>
+          <%= link_to new_problem_path do %>
+              <button class="btn btn-default pull-right">
+                <i class="glyphicon glyphicon-plus"></i>
+                Add
+              </button>
+          <% end %>
+        </span>
+      </div>
+      <div class="panel-body problems-list">
+        <% if @known_problems.present? %>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                <tr>
+                  <th>Problem Name</th>
+                  <th>Details</th>
+                  <th></th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <%= content_tag_for(:tr, @known_problems) do |known_problem| %>
+                    <td><%= known_problem.problem.name %></td>
+                    <td><%= known_problem.details %></td>
+                    <td><%= link_to known_problem, method: :delete, data: {confirm: 'Are you sure?'} do %>
+                          <i class="glyphicon glyphicon-trash"></i>
+                      <% end %>
+                    </td>
+                <% end %>
+                </tbody>
+              </table>
+            </div>
+        <% else %>
+        <i>No health condition added.</i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Prescriptions</h3>
+          <button class="btn btn-default pull-right disabled">
+            <span class="glyphicon glyphicon-cloud-upload"></span>
+            Upload
+          </button>
+        </span>
+      </div>
+      <div class="panel-body prescription-list">
+        <i>No prescriptions found.</i>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="panel-title">
+          <h3>Test Reports</h3>
+          <button class="btn btn-default pull-right disabled">
+            <i class="glyphicon glyphicon-plus"></i>
+            Upload
+          </button>
+        </span>
+      </div>
+      <div class="panel-body test-reports-list">
+        <i>No test reports found.</i>
+      </div>
+    </div>
+  </div>
+</div>

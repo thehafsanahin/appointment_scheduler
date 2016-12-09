@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="thumbnail">
+          <%= image_tag "http://placehold.it/150x150&text=#{current_user.first_name}" %>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="divider"></div>
+      </div>
+      <div class="col-md-12">
+        <%= render 'doctors/appointments_panel' %>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="panel panel-default panel-what-to-do">
+      <div class="panel-heading">
+        <h3 class="panel-title">Welcome <%= current_user.full_name %></h3>
+      </div>
+      <div class="panel-body pb30">
+        <div class="col-md-6 text-center mb20">
+          <%= link_to doctors_appointments_path do %>
+              <button class="btn btn-default btn-all-appointments" type="button">
+                All appointments
+              </button>
+          <% end %>
+        </div>
+        <div class="col-md-6 text-center">
+          <%= link_to medicine_formularies_path do %>
+              <button class="btn btn-default btn-medicine-details" type="button">
+                Medicine Details
+              </button>
+          <% end %>
+        </div>
+        <div class="col-md-12 text-center">
+          <button class="btn btn-default btn-patients-list" type="button">
+            Patients List
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 mt20">
+        <%= render 'doctors/reports_panel' %>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-12">
+        <%= render 'doctors/messages_panel' %>
+      </div>
+      <div class="col-md-12">
+        <%= render 'doctors/todo_panel' %>
+      </div>
+    </div>
+  </div>
+</div>

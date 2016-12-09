@@ -1,0 +1,29 @@
+<%= simple_form_for(@time_slot) do |f| %>
+  <%= f.error_notification %>
+
+    <% @days = Constants::DAYS_MAP %>
+    <% @days.each do |day| %>
+        <%= f.simple_fields_for day do |ff| %>
+        <div class="col-sm-12 form-inputs time-slots no-hr-padding">
+          <%= ff.input :day, label: day, as: :boolean, wrapper_html: {class: 'col-sm-3'} %>
+          <%= ff.input :start_time, label: 'From', as: :time, ampm: true, minute_step: 5, wrapper_html: {class: 'col-sm-3 inline-fields'} %>
+          <%= ff.input :end_time, label: 'To', as: :time, ampm: true, minute_step: 5, wrapper_html: {class: 'col-sm-3 inline-fields'} %>
+          <%= ff.input :patient_count, label: 'Total Patient', wrapper_html: {class: 'col-sm-3'} %>
+          <%= ff.hidden_field :doctor_id, value: current_user.id %>
+        </div>
+        <% end %>
+    <% end %>
+
+    <div class="col-sm-12 form-actions text-right mtb50">
+
+      <%= link_to time_slots_path, :class => 'btn btn-default' do %>
+          <span class="glyphicon glyphicon-remove"></span>
+          Cancel
+      <% end %>
+      <%= f.button :button do %>
+          <span class="glyphicon glyphicon-ok"></span>
+          Save
+      <% end %>
+    </div>
+
+<% end %>

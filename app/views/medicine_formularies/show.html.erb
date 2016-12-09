@@ -1,0 +1,26 @@
+<div class="page-header">
+  <%= link_to medicine_formularies_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_medicine_formulary_path(@medicine_formulary), :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show Medicine</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Name:</dt>
+  <dd><%= @medicine_formulary.name %></dd>
+
+  <dt>Brand name:</dt>
+  <dd><%= @medicine_formulary.brand_name %></dd>
+
+  <dt>Price:</dt>
+  <dd><%= @medicine_formulary.price %></dd>
+
+  <dt>Uses:</dt>
+  <dd><%= @medicine_formulary.uses %></dd>
+
+</dl>

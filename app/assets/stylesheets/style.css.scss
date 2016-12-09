@@ -1,0 +1,352 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+/* Flatten das boostrap */
+.well, .navbar-inner,
+.popover, .btn,
+.tooltip, input,
+select, textarea,
+pre, .progress,
+.modal, .add-on,
+.alert, .table-bordered,
+.nav>.active>a,
+.dropdown-menu, .tooltip-inner,
+.badge, .label, .img-polaroid {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border-collapse: collapse !important;
+  background-image: none !important;
+}
+
+input,
+select, textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.big-search-icon {
+  color: #eaeaea;
+  font-size: 70px;
+  font-weight: 100;
+  margin-right: 20px;
+}
+
+.mtb50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.btn-make-appointment,
+.btn-all-appointments,
+.btn-view-records,
+.btn-medicine-details,
+.btn-patients-list {
+  padding: 30px 20px;
+  height: 100px;
+  min-width: 170px;
+}
+
+.icon-view-report {
+  max-width: 40px;
+  a {
+    padding: 9px 10px;
+    color: #333;
+    &:hover {
+      background: #dddddd;
+    }
+  }
+}
+
+.divider {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.no-hr-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-hr-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.reports {
+  .reports-list {
+    .table > thead > tr > th,
+    .table > thead > tr > td,
+    .table > tbody > tr > th,
+    .table > tbody > tr > td,
+    .table > tfoot > tr > th,
+    .table > tfoot > tr > td {
+      border: 0;
+    }
+  }
+}
+
+.appointments {
+  .appointments-list {
+    min-height: 200px;
+  }
+}
+
+.doctor-profile-public, .minimal-doctor-profile {
+  .personal-details-right, .minimal-doctor-profile-middle {
+    .badge {
+      padding: 7px 10px;
+      font-weight: 100;
+      background: #F5D28F;
+      color: #6d5a3d;
+    }
+    h3 {
+      margin-top: 10px;
+    }
+  }
+}
+
+.recommendation-text-icon {
+  color: #49B1D1;
+  .icon {
+    padding-top: 2px;
+  }
+  .icon, .rec-count {
+    font-size: 20px;
+  }
+  .rec-count {
+    margin: 0 5px 0 0px;
+  }
+}
+
+
+.hr-padding-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+.inline-fields {
+  label {
+    display: block;
+  }
+  select.date {
+    display: inline-block;
+    width: 32%;
+  }
+  select.time {
+    display: inline-block;
+    max-width: 90px;
+  }
+  .radio {
+    display: inline-block;
+    margin-right: 10px;
+    label {
+      text-transform: capitalize;
+    }
+    input {
+      margin-top: 3px;
+    }
+  }
+}
+
+.form-appointment {
+  .form-inputs {
+    h3 {
+      margin: 5px auto;
+      .label {
+        display: inline-block;
+        min-width: 160px;
+        margin-right: 20px;
+        padding: 14px;
+        text-align: right;
+        font-weight: 100;
+      }
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+.login-form {
+  label {
+    font-weight: 100;
+  }
+  .btn {
+    padding: 10px 40px;
+    font-size: 16px;
+  }
+  .input-group-lg {
+    input[type='text'],
+    input[type='email'],
+    input[type='password'] {
+      height: 46px;
+      font-size: 20px;
+    }
+  }
+
+  .panel {
+    border-radius: 0;
+  }
+}
+
+.patients-records {
+    h3 {
+      display: inline-block;
+      margin-top: 10px;
+  }
+}
+
+.prescription-new{
+  .prescription-user-summary {
+    label, input {
+      display: inline-block;
+      width: auto;
+      font-weight: 100;
+    }
+
+    h3 {
+      margin-top: 5px;
+    }
+    h4 {
+      margin: 5px auto;
+    }
+    .form-group {
+      margin-bottom: 0;
+      display: inline-block;
+      input {
+        height: 30px;
+        padding: 5px auto;
+      }
+    }
+  }
+
+
+  .age-field {
+    max-width: 50px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+}
+
+.w100 {
+  width: 100%;
+}
+
+.btn-cancel {
+  display: inline-block;
+}
+
+.search-field {
+  width: 80%;
+}
+
+.input-group-addon:first-child {
+  border-radius: 0;
+}
+
+.date-btn {
+  cursor: text;
+}
+
+.booked-time-slot {
+  text-decoration: line-through;
+  color: #333;
+}
+
+.search-doctor {
+  .search-field.typeahead.tt-input {
+    vertical-align: top;
+    width: 100%;
+  }
+  .twitter-typeahead {
+    width: 90%;
+  }
+  .search-btn {
+    vertical-align: top;
+  }
+}
+
+/* ================ */
+.tt-dropdown-menu {
+  width: 100%;
+  min-width: 160px;
+  margin-top: 2px;
+  padding: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+.tt-suggestion {
+  display: block;
+  padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+  color: #fff;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+.tt-suggestion.tt-is-under-cursor a {
+  color: #fff;
+}
+.tt-suggestion p {
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+<div class="page-header">
+  <%= link_to new_medicine_formulary_path, :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-plus"></span>
+    Add New
+  <% end %>
+  <h1>Medicines List</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Name</th>
+            <th>Brand name</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @medicine_formularies) do |medicine_formulary| %>
+            <td><%= medicine_formulary.name %></td>
+            <td><%= medicine_formulary.brand_name %></td>
+            <td><%= link_to 'Details', medicine_formulary %></td>
+        <td><%= link_to 'Edit', edit_medicine_formulary_path(medicine_formulary) %></td>
+        <td><%= link_to 'Destroy', medicine_formulary, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,66 @@
+<div class="doctor-profile-public">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <%= render partial: 'parts/doctor_profile_top_summary', locals: {user: @user} %>
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn btn-primary pull-left">
+                Make An Appointment
+              </button>
+            </div>
+          </div>
+          <div class="row mt20">
+            <div class="col-sm-12">
+              <% if @available_times_for_dates.present? %>
+                  <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                      <thead>
+                      <tr>
+                        <th style="min-width: 140px;">Available Day</th>
+                        <th>Available Times</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <%= render partial: 'parts/available_date', locals: {available_times_for_dates: @available_times_for_dates, doctor_id: @user.id} %>
+                      </tbody>
+                    </table>
+                  </div>
+              <% else %>
+                  <div class="alert alert-info">
+                    <p><i>No available time slots.</i></p>
+
+                    <p>
+
+                      Contact No:
+                      <span class="btn btn-info btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> <%= @user.contact_no %></span>
+                    </p>
+                  </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% @booked_time_slots = @user.booked_time_slots %>
+<% if @booked_time_slots.present? %>
+
+    <script>
+        $(function () {
+            booked_time_slots = <%= raw @booked_time_slots %>;
+            $.each(booked_time_slots, function (index, value) {
+                obj = $("." + value);
+                console.log(obj);
+                obj.addClass('booked-time-slot');
+                obj.addClass('disabled');
+            });
+        });
+    </script>
+
+<% end %>
+
+

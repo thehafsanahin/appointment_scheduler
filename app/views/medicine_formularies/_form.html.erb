@@ -1,0 +1,54 @@
+<%= simple_form_for(@medicine_formulary) do |f| %>
+    <%= f.error_notification %>
+
+    <div class="form-inputs">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Medicine Details</h3>
+        </div>
+        <div class="panel-body">
+          <%= f.input :name %>
+          <%= f.input :brand_name %>
+          <%= f.input :price %>
+          <%= f.input :uses %>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Side Effect</h3>
+        </div>
+        <div class="panel-body">
+          <%= f.fields_for :side_effects do |ff| %>
+              <%= ff.input :name, label: 'Title' %>
+              <%= ff.input :description, as: :text, label: 'Details' %>
+          <% end %>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Precaution</h3>
+        </div>
+        <div class="panel-body">
+          <%= f.fields_for :precaution do |ff| %>
+              <%= ff.input :name, label: 'Title' %>
+              <%= ff.input :details, as: :text, label: 'Details' %>
+          <% end %>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Interaction</h3>
+        </div>
+        <div class="panel-body">
+          <%= f.fields_for :interaction do |ff| %>
+              <%= ff.input :medicine_name, label: 'Medicine Name' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit %>
+    </div>
+<% end %>

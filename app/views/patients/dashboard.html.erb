@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="thumbnail">
+          <%= image_tag "http://placehold.it/150x150&text=#{current_user.first_name}" %>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="divider"></div>
+      </div>
+      <div class="col-md-12">
+        <%= render 'patients/appointments_panel' %>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="panel panel-default panel-what-to-do">
+      <div class="panel-heading">
+        <h3 class="panel-title">Welcome <%= current_user.full_name %></h3>
+      </div>
+      <div class="panel-body pb30">
+        <div class="col-md-12 text-center mb20">
+          <h4>What would you like to do today?</h4>
+        </div>
+        <div class="col-md-6 text-center">
+          <%= link_to search_index_path do %>
+          <button class="btn btn-default btn-make-appointment" type="button">
+            <i class="glyphicon glyphicon-edit"></i> Make an appointment
+          </button>
+          <% end %>
+        </div>
+        <div class="col-md-6 text-center">
+          <%= link_to patients_records_path({id: current_user.id}) do %>
+          <button class="btn btn-default btn-view-records" type="button">
+            <i class="glyphicon glyphicon-list-alt"></i> View Health Records
+          </button>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 mt20">
+        <%= render 'patients/messages_panel' %>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-12">
+        <%= render 'patients/doctors_panel' %>
+      </div>
+      <div class="col-md-12">
+        <%= render 'recommendations_panel' %>
+      </div>
+    </div>
+  </div>
+</div>

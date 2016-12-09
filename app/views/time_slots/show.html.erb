@@ -1,0 +1,29 @@
+<div class="page-header">
+  <%= link_to time_slots_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_time_slot_path(@time_slot), :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show time_slot</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Day:</dt>
+  <dd><%= @time_slot.day %></dd>
+
+  <dt>Start time:</dt>
+  <dd><%= @time_slot.start_time %></dd>
+
+  <dt>End time:</dt>
+  <dd><%= @time_slot.end_time %></dd>
+
+  <dt>Patient count:</dt>
+  <dd><%= @time_slot.patient_count %></dd>
+
+  <dt>Duration:</dt>
+  <dd><%= @time_slot.duration %></dd>
+
+</dl>

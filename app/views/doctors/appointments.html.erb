@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default appointments">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">All Appointments</button>
+            </div>
+          </div>
+        </h3>
+      </div>
+      <div class="panel-body appointments-list">
+        <%= render partial: 'parts/appointments_list', locals: {appointments: @appointments} %>
+      </div>
+    </div>
+  </div>
+</div>

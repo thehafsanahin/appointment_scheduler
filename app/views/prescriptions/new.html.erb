@@ -1,0 +1,121 @@
+<div class="row prescription-new">
+  <div class="col-sm-10 col-sm-offset-1">
+
+    <%= simple_form_for(@prescription) do |f| %>
+        <%= f.error_notification %>
+        <div class="row prescription-user-summary">
+          <div class="col-sm-6">
+            <%= doctor_summary(@appointment).html_safe %>
+          </div>
+          <div class="col-sm-6 text-right">
+            <%= patient_summary(@appointment).html_safe %>
+            <div class="form-inputs inline-fields">
+              <%= f.input :current_weight, label: 'Current Weight:', input_html: {class: 'age-field'} %> Kg
+            </div>
+            <h5><i><%= humanize_date(Date.today) %></i></h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <hr/>
+        </div>
+
+        <div class="row well prescription-body">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <div class="row">
+                <div class="col-sm-3">
+                  Problem Name
+                </div>
+                <div class="col-sm-9">
+                  <%= text_field_tag :problem_name, nil, class: 'w100' %>
+                </div>
+              </div>
+              <div class="row mt20">
+                <div class="col-sm-3">
+                  Problem Details
+                </div>
+                <div class="col-sm-9">
+                  <%= text_area_tag :problem_details, nil, class: 'w100' %>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-sm-12">
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Medicine Name
+              </div>
+              <div class="col-sm-3">
+                <%= text_field_tag :medicine_name %>
+              </div>
+              <div class="col-sm-3 text-center">
+                Strength
+              </div>
+              <div class="col-sm-3 text-right">
+                <%= text_field_tag :strength %>
+              </div>
+            </div>
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Dosage (per day)
+              </div>
+              <div class="col-sm-3">
+                <%= text_field_tag :unit %>
+              </div>
+              <div class="col-sm-3 text-center">
+                Duration (days)
+              </div>
+              <div class="col-sm-3 text-right">
+                <%= text_field_tag :duration %>
+              </div>
+            </div>
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Note
+              </div>
+              <div class="col-sm-9 text-right">
+                <%= text_area_tag :note, nil, class: 'w100' %>
+              </div>
+            </div>
+            <div class="row mt20">
+              <div class="col-sm-12">
+                <button class="btn btn-default pull-right"> + Add More Medicine</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well mt20">
+          <div class="col-sm-3">
+            Test Name
+          </div>
+          <div class="col-sm-9 text-right">
+            <%= text_field_tag :text_name, nil, class: 'w100' %>
+          </div>
+          <div class="col-sm-12 mt20">
+            <button class="btn btn-default pull-right"> + Add More Test</button>
+          </div>
+        </div>
+
+
+        <div class="form-actions text-center mb20">
+          <%= link_to doctors_appointments_path, :class => 'btn btn-default' do %>
+              <span class="glyphicon glyphicon-remove"></span>
+              Cancel
+          <% end %>
+          <%= f.button :button do %>
+              <span class="glyphicon glyphicon-ok"></span>
+              Done
+          <% end %>
+        </div>
+    <% end %>
+
+    <%#= @appointment.doctor.profile.inspect %>
+    <%#= @appointment.patient.inspect %>
+  </div>
+</div>

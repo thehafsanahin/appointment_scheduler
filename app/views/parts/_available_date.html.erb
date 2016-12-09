@@ -1,0 +1,23 @@
+<% @available_dates.each do |date| %>
+    <tr>
+      <td>
+        <span class="btn date-btn">
+          <%= date %>
+        </span>
+      </td>
+      <td>
+        <ul class="list-inline">
+          <% time_slots = @available_times_for_dates[date.to_s(:number).to_i] %>
+          <% time_slots.each do |time_slot| %>
+              <% d = time_slot.split('_').first %>
+              <% t = time_slot.split('_').last %>
+              <li>
+                <%= link_to new_appointment_path({date: d, start_time: t, doctor_id: doctor_id}), class: "btn #{d}_#{t}" do %>
+                    <%= TimeSlot.humanize_time(t) %>
+              <% end %>
+              </li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+<% end %>
