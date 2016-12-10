@@ -1,0 +1,37 @@
+<tr>
+  <td><%= message.date %></td>
+  <td><%= message.patient.first_name %></td>
+  <td>
+    <div>
+      <%= link_to truncate(message.reason, length: 10), '#', data: {toggle: 'modal', target: "#appointment-details-modal-#{message.id}"} %>
+
+      <div class="modal fade" id=<%= "appointment-details-modal-#{message.id}" %> role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Appointment Request</h4>
+            </div>
+
+            <div class="modal-body">
+              <dl class="dl-horizontal">
+                <dt>Date:</dt>
+                <dd><%= message.date %></dd>
+
+                <dt>Start time:</dt>
+                <dd><%= message.start_time.strftime('%I:%m %p') %></dd>
+
+                <dt>Reason:</dt>
+                <dd><%= message.reason %></dd>
+              </dl>
+            </div>
+            <div class="modal-footer">
+              <%= link_to 'Reject', update_status_appointment_path(id: message.id, status: 'rejected'), class: 'btn btn-danger', method: :post %>
+              <%= link_to 'Accept', update_status_appointment_path(id: message.id, status: 'accepted'), class: 'btn btn-success', method: :post %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+</tr>
