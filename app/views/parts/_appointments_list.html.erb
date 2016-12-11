@@ -19,7 +19,7 @@
         <td><%= appointment.reason %></td>
         <td><%= link_to 'View History', patients_public_profile_path(id: appointment.patient.id) %></td>
         <td><%= link_to 'Start', new_prescription_path(appointment_id: appointment.id) %></td>
-        <td>Cancel</td>
+        <td><%= link_to 'Cancel', update_status_appointment_path(id: appointment.id, status: 'rejected'), method: :post %></td>
     <% end %>
     </tbody>
   </table>

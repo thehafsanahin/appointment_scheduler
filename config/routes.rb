@@ -14,7 +14,11 @@ Rails.application.routes.draw do
 
   resources :problems
 
-  resources :appointments
+  resources :appointments do
+    member do
+      post 'update_status'
+    end
+  end
 
   resources :time_slots, except: [:edit, :show]
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150623195649) do
+ActiveRecord::Schema.define(version: 20161210195525) do
 
   create_table "appointments", force: :cascade do |t|
     t.date     "date"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20150623195649) do
     t.datetime "updated_at"
     t.integer  "doctor_id",  limit: 4
     t.integer  "patient_id", limit: 4
+    t.integer  "status",     limit: 4,   default: 0
   end
 
   add_index "appointments", ["doctor_id"], name: "index_appointments_on_doctor_id", using: :btree

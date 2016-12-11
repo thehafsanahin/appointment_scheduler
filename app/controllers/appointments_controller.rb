@@ -1,10 +1,10 @@
 class AppointmentsController < ApplicationController
-  before_action :set_appointment, only: [:show, :edit, :update, :destroy]
+  before_action :set_appointment, only: [:show, :edit, :update, :destroy, :update_status]
 
   respond_to :html
 
   def index
-    @appointments = Appointment.all
+    @appointments = current_user.appointments.accepted
     respond_with(@appointments)
   end
 
@@ -46,6 +46,11 @@ class AppointmentsController < ApplicationController
   def destroy
     @appointment.destroy
     respond_with(@appointment)
+  end
+
+  def update_status
+    @appointment.update(status: params[:status])
+    redirect_to :back
   end
 
   private

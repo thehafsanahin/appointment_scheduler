@@ -1,11 +1,11 @@
 class TimeSlotsController < ApplicationController
-  before_filter :check_permission
+  before_action :check_permission
   before_action :set_time_slot, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
 
   def index
-    @time_slots = TimeSlot.all
+    @time_slots = current_user.time_slots
     respond_with(@time_slots)
   end
 
