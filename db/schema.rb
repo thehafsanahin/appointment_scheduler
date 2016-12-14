@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161210195525) do
+ActiveRecord::Schema.define(version: 20161214183536) do
 
   create_table "appointments", force: :cascade do |t|
     t.date     "date"
@@ -61,6 +61,15 @@ ActiveRecord::Schema.define(version: 20161210195525) do
   add_index "known_problems", ["patient_id"], name: "index_known_problems_on_patient_id", using: :btree
   add_index "known_problems", ["problem_id"], name: "index_known_problems_on_problem_id", using: :btree
 
+  create_table "medical_tests", force: :cascade do |t|
+    t.string   "name",            limit: 255
+    t.integer  "prescription_id", limit: 4
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+  end
+
+  add_index "medical_tests", ["prescription_id"], name: "index_medical_tests_on_prescription_id", using: :btree
+
   create_table "medicine_formularies", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.string   "brand_name", limit: 255
@@ -77,18 +86,39 @@ ActiveRecord::Schema.define(version: 20161210195525) do
     t.datetime "updated_at"
   end
 
+  create_table "prescribed_medicines", force: :cascade do |t|
+    t.string   "name",            limit: 255
+    t.string   "strength",        limit: 255
+    t.string   "dosage",          limit: 255
+    t.string   "duration",        limit: 255
+    t.text     "note",            limit: 65535
+    t.integer  "prescription_id", limit: 4
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+  end
+
+  add_index "prescribed_medicines", ["prescription_id"], name: "index_prescribed_medicines_on_prescription_id", using: :btree
+
   create_table "prescriptions", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "current_weight", limit: 255
+    t.integer  "appointment_id", limit: 4
   end
 
+  add_index "prescriptions", ["appointment_id"], name: "index_prescriptions_on_appointment_id", using: :btree
+
   create_table "problems", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "details",    limit: 255
+    t.string   "name",            limit: 255
+    t.string   "details",         limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "patient_id",      limit: 4
+    t.integer  "prescription_id", limit: 4
   end
+
+  add_index "problems", ["patient_id"], name: "index_problems_on_patient_id", using: :btree
+  add_index "problems", ["prescription_id"], name: "index_problems_on_prescription_id", using: :btree
 
   create_table "side_effects", force: :cascade do |t|
     t.string   "name",        limit: 255
@@ -139,4 +169,6 @@ ActiveRecord::Schema.define(version: 20161210195525) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "medical_tests", "prescriptions"
+  add_foreign_key "prescribed_medicines", "prescriptions"
 end

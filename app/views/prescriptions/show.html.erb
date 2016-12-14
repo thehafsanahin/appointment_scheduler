@@ -1,14 +1,88 @@
 <div class="page-header">
-  <%= link_to prescriptions_path, :class => 'btn btn-default' do %>
-    <span class="glyphicon glyphicon-list-alt"></span>
-    Back
-  <% end %>
-  <%= link_to edit_prescription_path(@prescription), :class => 'btn btn-primary' do %>
-    <span class="glyphicon glyphicon-pencil"></span>
-    Edit
+  <%= link_to doctors_appointments_path, :class => 'btn btn-default' do %>
+      <span class="glyphicon glyphicon-list-alt"></span>
+      Back
   <% end %>
   <h1>Show prescription</h1>
 </div>
 
-<dl class="dl-horizontal">
-</dl>
+<div class="row prescription-new">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="row well prescription-body">
+      <div class="col-sm-12">
+        <% @prescription.problems.each do |problem| %>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-sm-3">
+                  Problem Name
+                </div>
+                <div class="col-sm-9">
+                  <%= problem.name %>
+                </div>
+              </div>
+              <div class="row mt20">
+                <div class="col-sm-3">
+                  Problem Details
+                </div>
+                <div class="col-sm-9">
+                  <%= problem.details %>
+                </div>
+              </div>
+            </div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="row well">
+      <div class="col-sm-12">
+        <% @prescription.prescribed_medicines.each do |pm| %>
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Medicine Name
+              </div>
+              <div class="col-sm-3">
+                <%= pm.name %>
+              </div>
+              <div class="col-sm-3 text-center">
+                Strength
+              </div>
+              <div class="col-sm-3 text-right">
+                <%= pm.strength %>
+              </div>
+            </div>
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Dosage (per day)
+              </div>
+              <div class="col-sm-3">
+                <%= pm.dosage %>
+              </div>
+              <div class="col-sm-3 text-center">
+                Duration (days)
+              </div>
+              <div class="col-sm-3 text-right">
+                <%= pm.duration %>
+              </div>
+            </div>
+            <div class="row mt20">
+              <div class="col-sm-3">
+                Note
+              </div>
+              <div class="col-sm-9 text-right">
+                <%= pm.note %>
+              </div>
+            </div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="row well mt20">
+      <% @prescription.medical_tests.each do |mt| %>
+          <div class="col-sm-3">Test Name</div>
+          <div class="col-sm-9 text-right">
+            <%= mt.name %>
+          </div>
+      <% end %>
+    </div>
+  </div>
+</div>

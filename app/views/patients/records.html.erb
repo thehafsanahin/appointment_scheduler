@@ -4,16 +4,10 @@
       <div class="panel-heading">
         <span class="panel-title">
           <h3>Current Health Conditions</h3>
-          <%= link_to new_problem_path do %>
-              <button class="btn btn-default pull-right">
-                <i class="glyphicon glyphicon-plus"></i>
-                Add
-              </button>
-          <% end %>
         </span>
       </div>
       <div class="panel-body problems-list">
-        <% if @known_problems.present? %>
+        <% if @problems.present? %>
             <div class="table-responsive">
               <table class="table table-hover">
                 <thead>
@@ -25,19 +19,15 @@
                 </thead>
 
                 <tbody>
-                <%= content_tag_for(:tr, @known_problems) do |known_problem| %>
-                    <td><%= known_problem.problem.name %></td>
-                    <td><%= known_problem.details %></td>
-                    <td><%= link_to known_problem, method: :delete, data: {confirm: 'Are you sure?'} do %>
-                          <i class="glyphicon glyphicon-trash"></i>
-                      <% end %>
-                    </td>
+                <%= content_tag_for(:tr, @problems) do |problem| %>
+                    <td><%= problem.name %></td>
+                    <td><%= problem.details %></td>
                 <% end %>
                 </tbody>
               </table>
             </div>
         <% else %>
-        <i>No health condition added.</i>
+            <i>No health condition added.</i>
         <% end %>
       </div>
     </div>
@@ -48,14 +38,20 @@
       <div class="panel-heading">
         <span class="panel-title">
           <h3>Prescriptions</h3>
-          <button class="btn btn-default pull-right disabled">
-            <span class="glyphicon glyphicon-cloud-upload"></span>
-            Upload
-          </button>
         </span>
       </div>
       <div class="panel-body prescription-list">
-        <i>No prescriptions found.</i>
+        <% if @prescriptions.present? %>
+            <ul>
+              <% @prescriptions.each do |prescription| %>
+                  <li>
+                    <%= link_to "#{prescription.appointment.date} - #{prescription.appointment.doctor.full_name}", prescription_path(prescription.id) %>
+                  </li>
+              <% end %>
+            </ul>
+        <% else %>
+            <i>No prescriptions found.</i>
+        <% end %>
       </div>
     </div>
   </div>
@@ -65,10 +61,10 @@
       <div class="panel-heading">
         <span class="panel-title">
           <h3>Test Reports</h3>
-          <button class="btn btn-default pull-right disabled">
-            <i class="glyphicon glyphicon-plus"></i>
-            Upload
-          </button>
+          <!--<button class="btn btn-default pull-right disabled">-->
+            <!--<i class="glyphicon glyphicon-plus"></i>-->
+            <!--Upload-->
+          <!--</button>-->
         </span>
       </div>
       <div class="panel-body test-reports-list">

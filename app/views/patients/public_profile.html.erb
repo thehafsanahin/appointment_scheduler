@@ -22,7 +22,7 @@
         </span>
       </div>
       <div class="panel-body problems-list">
-        <% if @known_problems.present? %>
+        <% if @problems.present? %>
             <div class="table-responsive">
               <table class="table table-hover">
                 <thead>
@@ -34,9 +34,9 @@
                 </thead>
 
                 <tbody>
-                <%= content_tag_for(:tr, @known_problems) do |known_problem| %>
-                    <td><%= known_problem.problem.name %></td>
-                    <td><%= known_problem.details %></td>
+                <%= content_tag_for(:tr, @problems) do |problem| %>
+                    <td><%= problem.name %></td>
+                    <td><%= problem.details %></td>
                 <% end %>
                 </tbody>
               </table>
@@ -56,7 +56,17 @@
         </span>
       </div>
       <div class="panel-body prescription-list">
-        <i>No prescriptions found.</i>
+        <% if @prescriptions.present? %>
+            <ul>
+              <% @prescriptions.each do |prescription| %>
+                  <li>
+                    <%= link_to "#{prescription.appointment.date} - #{prescription.appointment.doctor.full_name}", prescription_path(prescription.id) %>
+                  </li>
+              <% end %>
+            </ul>
+        <% else %>
+            <i>No prescriptions found.</i>
+        <% end %>
       </div>
     </div>
   </div>

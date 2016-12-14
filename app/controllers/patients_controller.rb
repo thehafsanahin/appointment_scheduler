@@ -1,5 +1,5 @@
 class PatientsController < ApplicationController
-  before_action :set_patient, only: [:show, :edit, :update, :destroy]
+  before_action :set_patient, only: [:show, :edit, :update, :destroy, :public_profile, :records]
 
   def dashboard
     @patient = current_user
@@ -55,13 +55,13 @@ class PatientsController < ApplicationController
   end
 
   def records
-    set_patient
-    @known_problems = @patient.known_problems
+    @problems = @patient.problems
+    @prescriptions = @patient.prescriptions || []
   end
 
   def public_profile
-    set_patient
-    @known_problems = @patient.known_problems
+    @problems = @patient.problems || []
+    @prescriptions = @patient.prescriptions || []
   end
 
   private

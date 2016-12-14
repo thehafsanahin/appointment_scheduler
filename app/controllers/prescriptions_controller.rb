@@ -1,6 +1,5 @@
 class PrescriptionsController < ApplicationController
   before_action :set_prescription, only: [:show, :edit, :update, :destroy]
-
   respond_to :html
 
   def index
@@ -15,7 +14,11 @@ class PrescriptionsController < ApplicationController
   def new
     @appointment = Appointment.find(params[:appointment_id])
 
-    @prescription = Prescription.new
+    @prescription = @appointment.build_prescription
+    @prescription.problems.build
+    @prescription.prescribed_medicines.build
+    @prescription.medical_tests.build
+
     respond_with(@prescription)
   end
 
@@ -25,6 +28,7 @@ class PrescriptionsController < ApplicationController
   def create
     @prescription = Prescription.new(prescription_params)
     @prescription.save
+    @prescription.appointment.completed!
     respond_with(@prescription)
   end
 
@@ -39,13 +43,32 @@ class PrescriptionsController < ApplicationController
   end
 
   private
-    def set_prescription
-      @prescription = Prescription.find(params[:id])
-    end
+  def set_prescription
+    @prescription = Prescription.find(params[:id])
+  end
 
-    def prescription_params
-      # params[:prescription]
-      # params.require(:prescription).permit(:date, :start_time, :end_time, :reason, :doctor_id, :patient_id)
-      params.require(:prescription).permit!
-    end
+  def prescription_params
+    params.require(:prescription).permit(:current_weight,
+                                         :appointment_id,
+                                         problems_attributes: [
+                                             :_destroy,
+                                             :id,
+                                             :name,
+                                             :details
+                                         ],
+                                         prescribed_medicines_attributes: [
+                                             :_destroy,
+                                             :id,
+                                             :name,
+                                             :strength,
+                                             :dosage,
+                                             :duration,
+                                             :note
+                                         ],
+                                         medical_tests_attributes: [
+                                             :_destroy,
+                                             :id,
+                                             :name
+                                         ])
+  end
 end

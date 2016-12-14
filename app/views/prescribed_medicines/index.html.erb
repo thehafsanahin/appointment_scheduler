@@ -1,0 +1,39 @@
+<div class="page-header">
+  <%= link_to new_prescribed_medicine_path, :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-plus"></span>
+    New Prescribed medicine
+  <% end %>
+  <h1>Listing prescribed_medicines</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Name</th>
+            <th>Strength</th>
+            <th>Dosage</th>
+            <th>Duration</th>
+            <th>Note</th>
+            <th>Prescription</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @prescribed_medicines) do |prescribed_medicine| %>
+            <td><%= prescribed_medicine.name %></td>
+            <td><%= prescribed_medicine.strength %></td>
+            <td><%= prescribed_medicine.dosage %></td>
+            <td><%= prescribed_medicine.duration %></td>
+            <td><%= prescribed_medicine.note %></td>
+            <td><%= prescribed_medicine.prescription %></td>
+            <td><%= link_to 'Show', prescribed_medicine %></td>
+        <td><%= link_to 'Edit', edit_prescribed_medicine_path(prescribed_medicine) %></td>
+        <td><%= link_to 'Destroy', prescribed_medicine, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>
