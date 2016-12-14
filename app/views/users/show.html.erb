@@ -4,13 +4,13 @@
       <div class="panel panel-default">
         <div class="panel-body">
           <%= render partial: 'parts/doctor_profile_top_summary', locals: {user: @user} %>
-          <div class="row">
-            <div class="col-sm-12">
-              <button class="btn btn-primary pull-left">
-                Make An Appointment
-              </button>
-            </div>
-          </div>
+          <!--<div class="row">-->
+            <!--<div class="col-sm-12">-->
+              <!--<button class="btn btn-primary pull-left">-->
+                <!--Make An Appointment-->
+              <!--</button>-->
+            <!--</div>-->
+          <!--</div>-->
           <div class="row mt20">
             <div class="col-sm-12">
               <% if @available_times_for_dates.present? %>

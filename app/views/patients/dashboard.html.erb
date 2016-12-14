@@ -10,7 +10,7 @@
         <div class="divider"></div>
       </div>
       <div class="col-md-12">
-        <%= render 'patients/appointments_panel' %>
+        <%= render partial: 'patients/appointments_panel', locals: {appointments: @appointments} %>
       </div>
     </div>
   </div>

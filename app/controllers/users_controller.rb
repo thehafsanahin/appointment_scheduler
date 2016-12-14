@@ -5,8 +5,6 @@ class UsersController < ApplicationController
 
     @available_dates = @user.available_dates(7)
     @available_times_for_dates = @user.available_times_for_dates
-    # raise @user.booked_time_slots.inspect
-    # raise @available_times_for_dates.inspect
   end
 
   def dashboard

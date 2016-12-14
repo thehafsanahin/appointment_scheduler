@@ -11824,3 +11824,3404 @@ Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-09 18:40:44 +060
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-09 18:40:44 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 21:42:49 +0600
+  [1m[36mActiveRecord::SchemaMigration Load (592.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SearchController#index as HTML
+  [1m[35mUser Load (191.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered search/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+Completed 200 OK in 8350ms (Views: 8030.1ms | ActiveRecord: 193.4ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/doctors.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:43:00 +0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-14 21:43:01 +0600
+
+
+Started GET "/search/autocomplete?q=Haf" for 127.0.0.1 at 2016-12-14 21:43:09 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Haf"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.8ms)
+
+
+Started GET "/search/autocomplete?q=H" for 127.0.0.1 at 2016-12-14 21:43:11 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"H"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.4ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (79.7ms)
+
+
+Started GET "/search/autocomplete?q=D" for 127.0.0.1 at 2016-12-14 21:43:11 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"D"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (69.1ms)
+
+
+Started GET "/search/autocomplete?q=Doc" for 127.0.0.1 at 2016-12-14 21:43:11 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Doc"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (72.3ms)
+
+
+Started GET "/search/autocomplete?q=Doctor" for 127.0.0.1 at 2016-12-14 21:43:15 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Doctor"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (3.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (77.4ms)
+
+
+Started GET "/search/autocomplete?q=D" for 127.0.0.1 at 2016-12-14 21:43:16 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"D"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.4ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (71.4ms)
+
+
+Started GET "/search/autocomplete?q=d" for 127.0.0.1 at 2016-12-14 21:43:17 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"d"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.9ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.6ms)
+
+
+Started GET "/search/autocomplete?q=doc" for 127.0.0.1 at 2016-12-14 21:43:18 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"doc"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (72.8ms)
+
+
+Started GET "/search/autocomplete?q=d" for 127.0.0.1 at 2016-12-14 21:43:19 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"d"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.9ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (71.0ms)
+
+
+Started GET "/search/autocomplete?q=Haf" for 127.0.0.1 at 2016-12-14 21:43:22 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Haf"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (78.0ms)
+
+
+Started GET "/search/autocomplete?q=Hafsa" for 127.0.0.1 at 2016-12-14 21:43:22 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Hafsa"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (73.7ms)
+
+
+Started GET "/search/autocomplete?q=H" for 127.0.0.1 at 2016-12-14 21:43:25 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"H"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (77.9ms)
+
+
+Started GET "/search/autocomplete?q=Hf" for 127.0.0.1 at 2016-12-14 21:43:26 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Hf"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (76.6ms)
+
+
+Started GET "/search/autocomplete?q=Hfs" for 127.0.0.1 at 2016-12-14 21:43:26 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Hfs"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (68.3ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&q=Hafsa" for 127.0.0.1 at 2016-12-14 21:43:27 +0600
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Hafsa"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:5:in `index'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.4ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (133.8ms)
+
+
+Started GET "/search/autocomplete?q=Hafsa" for 127.0.0.1 at 2016-12-14 21:43:27 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Hafsa"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.6ms)
+
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:9200 (Connection refused - connect(2) for "localhost" port 9200)):
+  app/controllers/search_controller.rb:16:in `autocomplete'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (71.0ms)
+
+
+Started GET "/search/autocomplete?q=H" for 127.0.0.1 at 2016-12-14 21:48:15 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"H"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (197.3ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"H","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+Completed 200 OK in 394ms (Views: 1.2ms | Searchkick: 197.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/search/autocomplete?q=Ha" for 127.0.0.1 at 2016-12-14 21:48:15 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Ha"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[33mDoctor Search (7.8ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"Ha","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+Completed 200 OK in 11ms (Views: 0.1ms | Searchkick: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/search/autocomplete?q=Haf" for 127.0.0.1 at 2016-12-14 21:48:15 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Haf"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (8.1ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"Haf","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+Completed 200 OK in 12ms (Views: 0.2ms | Searchkick: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/search/autocomplete?q=Hafsa" for 127.0.0.1 at 2016-12-14 21:48:17 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Hafsa"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[33mDoctor Search (6.7ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"Hafsa","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+Completed 200 OK in 10ms (Views: 0.1ms | Searchkick: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/search/autocomplete?q=Doc" for 127.0.0.1 at 2016-12-14 21:48:20 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Doc"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (335.8ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"Doc","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+  [1m[35mDoctor Load (169.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` IN (2, 3)
+Completed 200 OK in 545ms (Views: 0.3ms | Searchkick: 335.8ms | ActiveRecord: 169.8ms)
+
+
+Started GET "/search/autocomplete?q=Docto" for 127.0.0.1 at 2016-12-14 21:48:21 +0600
+Processing by SearchController#autocomplete as JSON
+  Parameters: {"q"=>"Docto"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (7.2ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete"],"query":"Docto","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"timeout":"11s","fields":[]}'
+  [1m[35mDoctor Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` IN (2, 3)
+Completed 200 OK in 14ms (Views: 0.3ms | Searchkick: 7.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&q=Doctor+Doctor" for 127.0.0.1 at 2016-12-14 21:48:24 +0600
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Doctor Doctor"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (184.4ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"Doctor Doctor","boost":10,"operator":"and","analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"Doctor Doctor","boost":10,"operator":"and","analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"Doctor Doctor","boost":1,"operator":"and","analyzer":"searchkick_search","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true}}},{"match":{"_all":{"query":"Doctor Doctor","boost":1,"operator":"and","analyzer":"searchkick_search2","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true}}}]}},"size":1000,"from":0,"timeout":"11s","fields":[]}'
+  [1m[35mDoctor Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` IN (2, 3)
+  [1m[36mDoctorProfile Load (28.2ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_minimal_doctor_profile.html.erb (138.8ms)
+  [1m[35mDoctorProfile Load (0.5ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 3 LIMIT 1
+  Rendered parts/_minimal_doctor_profile.html.erb (2.2ms)
+  Rendered search/index.html.erb within layouts/application (190.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 715ms (Views: 492.8ms | Searchkick: 184.4ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:25 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 21:48:34 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mTimeSlot Load (67.3ms)[0m  [1mSELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2[0m
+  [1m[35mTimeSlot Load (0.6ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1
+  [1m[36mTimeSlot Load (0.5ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mDoctorProfile Load (0.6ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_doctor_profile_top_summary.html.erb (3.1ms)
+  Rendered parts/_available_date.html.erb (31.8ms)
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2
+  Rendered users/show.html.erb within layouts/application (127.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 541ms (Views: 314.5ms | ActiveRecord: 124.2ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:48:35 +0600
+
+
+Started GET "/search/index?utf8=%E2%9C%93&q=Doctor+Doctor" for 127.0.0.1 at 2016-12-14 21:50:47 +0600
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Doctor Doctor"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[33mDoctor Search (16.9ms)[0m  curl http://localhost:9200/doctors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"Doctor Doctor","boost":10,"operator":"and","analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"Doctor Doctor","boost":10,"operator":"and","analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"Doctor Doctor","boost":1,"operator":"and","analyzer":"searchkick_search","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true}}},{"match":{"_all":{"query":"Doctor Doctor","boost":1,"operator":"and","analyzer":"searchkick_search2","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true}}}]}},"size":1000,"from":0,"timeout":"11s","fields":[]}'
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` IN (2, 3)
+  [1m[36mDoctorProfile Load (0.4ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_minimal_doctor_profile.html.erb (2.0ms)
+  [1m[35mDoctorProfile Load (0.6ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 3 LIMIT 1
+  Rendered parts/_minimal_doctor_profile.html.erb (1.4ms)
+  Rendered search/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+Completed 200 OK in 211ms (Views: 187.4ms | Searchkick: 16.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:47 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:47 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:47 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:50:48 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 21:51:04 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mTimeSlot Load (0.5ms)[0m  [1mSELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2[0m
+  [1m[35mTimeSlot Load (0.4ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1
+  [1m[36mTimeSlot Load (0.3ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mDoctorProfile Load (0.5ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_doctor_profile_top_summary.html.erb (2.3ms)
+  Rendered parts/_available_date.html.erb (24.5ms)
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2
+  Rendered users/show.html.erb within layouts/application (32.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+Completed 200 OK in 217ms (Views: 205.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:51:05 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 21:52:31 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mTimeSlot Load (0.6ms)[0m  [1mSELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2[0m
+  [1m[35mTimeSlot Load (0.5ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1
+  [1m[36mTimeSlot Load (0.4ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mDoctorProfile Load (0.3ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_doctor_profile_top_summary.html.erb (14.6ms)
+  Rendered parts/_available_date.html.erb (41.4ms)
+  [1m[35mAppointment Load (0.3ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2
+  Rendered users/show.html.erb within layouts/application (73.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 340ms (Views: 263.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:52:32 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mTimeSlot Load (0.4ms)[0m  [1mSELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2[0m
+  [1m[35mTimeSlot Load (0.3ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1
+  [1m[36mTimeSlot Load (0.3ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mDoctorProfile Load (0.4ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_doctor_profile_top_summary.html.erb (1.5ms)
+  Rendered parts/_available_date.html.erb (27.1ms)
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2
+  Rendered users/show.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+Completed 200 OK in 218ms (Views: 206.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:12 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:13 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:13 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:13 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:13 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:13 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 21:53:57 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mTimeSlot Load (0.3ms)[0m  [1mSELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2[0m
+  [1m[35mTimeSlot Load (0.3ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1
+  [1m[36mTimeSlot Load (0.3ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[36mDoctorProfile Load (0.4ms)[0m  [1mSELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1[0m
+  Rendered parts/_doctor_profile_top_summary.html.erb (1.6ms)
+  Rendered parts/_available_date.html.erb (30.1ms)
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2
+  Rendered users/show.html.erb within layouts/application (36.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 244ms (Views: 233.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:53:58 +0600
+
+
+Started GET "/appointments/new?date=20161220&doctor_id=2&start_time=946670400" for 127.0.0.1 at 2016-12-14 21:54:05 +0600
+Processing by AppointmentsController#new as HTML
+  Parameters: {"date"=>"20161220", "doctor_id"=>"2", "start_time"=>"946670400"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mDoctor Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  Rendered appointments/_form.html.erb (1531.7ms)
+  Rendered appointments/new.html.erb within layouts/application (1534.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 1776ms (Views: 1756.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:07 +0600
+
+
+Started POST "/appointments" for 127.0.0.1 at 2016-12-14 21:54:18 +0600
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"89/4jb9QIzfv2jlTH1CckLBecfi5PnEcz56YKSAle5nUwkQ0w2rHNOpwM8gn1VsKjrLVApkG0C3reqC+ZpuCiA==", "appointment"=>{"reason"=>"Bellyache!", "date"=>"20, December 2016", "start_time"=>"2000-01-01 02:00:00 +0600", "end_time"=>"2000-01-01 02:00:00 +0600", "doctor_id"=>"2"}, "button"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (24.8ms)[0m  BEGIN
+  [1m[36mSQL (86.5ms)[0m  [1mINSERT INTO `appointments` (`date`, `start_time`, `end_time`, `reason`, `doctor_id`, `patient_id`, `created_at`, `updated_at`) VALUES ('2016-12-20', '2000-01-01 02:00:00.000000', '2000-01-01 02:00:00.000000', 'Bellyache!', 2, 1, '2016-12-14 21:54:18', '2016-12-14 21:54:18')[0m
+  [1m[35m (63.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/dashboard?flash%5Bsuccess%5D=Appointment+Successfully+Created%21
+Completed 302 Found in 183ms (ActiveRecord: 175.5ms)
+
+
+Started GET "/users/dashboard?flash%5Bsuccess%5D=Appointment+Successfully+Created%21" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+Processing by UsersController#dashboard as HTML
+  Parameters: {"flash"=>{"success"=>"Appointment Successfully Created!"}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/patients/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered patients/_appointments_panel.html.erb (0.3ms)
+  Rendered patients/_messages_panel.html.erb (0.5ms)
+  Rendered patients/_doctors_panel.html.erb (0.5ms)
+  Rendered patients/_recommendations_panel.html.erb (0.4ms)
+  Rendered patients/dashboard.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 234ms (Views: 231.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 21:54:19 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:02:09 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1
+  Rendered patients/_appointments_panel.html.erb (86.4ms)
+  Rendered patients/dashboard.html.erb within layouts/application (89.3ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 2.8ms)
+
+ActionView::Template::Error (undefined local variable or method `appointments' for #<#<Class:0x007f87c4b62328>:0x007f87c47b0e50>
+Did you mean?  @appointments):
+     9:     </h3>
+    10:   </div>
+    11:   <div class="panel-body appointments-list">
+    12:     <% if appointments.present? %>
+    13:         <div class="table-responsive">
+    14:           <table class="table table-hover">
+    15:             <thead>
+  app/views/patients/_appointments_panel.html.erb:12:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110513122040'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110550225720'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.7ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:02:36 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1
+  Rendered patients/_appointments_panel.html.erb (95.3ms)
+  Rendered patients/dashboard.html.erb within layouts/application (97.7ms)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined local variable or method `appointments' for #<#<Class:0x007f87c4b62328>:0x007f87c4255ed8>
+Did you mean?  @appointments):
+     9:     </h3>
+    10:   </div>
+    11:   <div class="panel-body appointments-list">
+    12:     <% if appointments.present? %>
+    13:         <div class="table-responsive">
+    14:           <table class="table table-hover">
+    15:             <thead>
+  app/views/patients/_appointments_panel.html.erb:12:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110513122040'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110544045180'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.4ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:03:38 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1
+  Rendered patients/_appointments_panel.html.erb (54.7ms)
+  Rendered patients/dashboard.html.erb within layouts/application (56.3ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined local variable or method `appointments' for #<#<Class:0x007f87c4b62328>:0x007f87c0de5f68>
+Did you mean?  @appointments):
+     9:     </h3>
+    10:   </div>
+    11:   <div class="panel-body appointments-list">
+    12:     <% if appointments.present? %>
+    13:         <div class="table-responsive">
+    14:           <table class="table table-hover">
+    15:             <thead>
+  app/views/patients/_appointments_panel.html.erb:12:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110513122040'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110544045180'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.8ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.6ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:03:53 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.6ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1
+  [1m[36m (50.2ms)[0m  [1mSELECT COUNT(*) FROM `appointments` WHERE `appointments`.`patient_id` = 1[0m
+  Rendered patients/_appointments_panel.html.erb (52.2ms)
+  Rendered patients/dashboard.html.erb within layouts/application (82.3ms)
+Completed 500 Internal Server Error in 160843ms (ActiveRecord: 53.4ms)
+
+ActionView::Template::Error (undefined local variable or method `hello' for #<#<Class:0x007f87c41b54b0>:0x007f87c48fcf98>):
+     9:     </h3>
+    10:   </div>
+    11:   <div class="panel-body appointments-list">
+    12:     <% if hello.present? %>
+    13:         <div class="table-responsive">
+    14:           <table class="table table-hover">
+    15:             <thead>
+  app/views/patients/_appointments_panel.html.erb:12:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110546014660'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110547541420'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.5ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.8ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:06:34 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.6ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1[0m
+  Rendered patients/_appointments_panel.html.erb (54.9ms)
+  Rendered patients/dashboard.html.erb within layouts/application (58.5ms)
+Completed 500 Internal Server Error in 8844ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined local variable or method `hello' for #<#<Class:0x007f87c41b54b0>:0x007f87c503a148>):
+     9:     </h3>
+    10:   </div>
+    11:   <div class="panel-body appointments-list">
+    12:     <% if hello.present? %>
+    13:         <div class="table-responsive">
+    14:           <table class="table table-hover">
+    15:             <thead>
+  app/views/patients/_appointments_panel.html.erb:12:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110546014660'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110547541420'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.8ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:07:16 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (1.0ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1[0m
+  Rendered patients/_appointments_panel.html.erb (78.9ms)
+  Rendered patients/dashboard.html.erb within layouts/application (82.2ms)
+Completed 500 Internal Server Error in 23402ms (ActiveRecord: 1.6ms)
+
+ActionView::Template::Error (undefined local variable or method `appointments' for #<#<Class:0x007f87c41b54b0>:0x007f87c06fe588>
+Did you mean?  @appointments):
+    19:             </tr>
+    20:             </thead>
+    21:             <tbody>
+    22:             <% appointments.each do |appointment| %>
+    23:                 <tr>
+    24:                   <td><%= appointment.id %></td>
+    25:                   <td><%= appointment.id %></td>
+  app/views/patients/_appointments_panel.html.erb:22:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110542895440'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110512931900'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.8ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:07:42 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.6ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1[0m
+  Rendered patients/_appointments_panel.html.erb (64.9ms)
+  Rendered patients/dashboard.html.erb within layouts/application (70.7ms)
+Completed 500 Internal Server Error in 3441ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined local variable or method `appointments' for #<#<Class:0x007f87c41b54b0>:0x007f87c4b24500>
+Did you mean?  appointment
+               @appointments):
+    19:             </tr>
+    20:             </thead>
+    21:             <tbody>
+    22:             <% appointments.each do |appointment| %>
+    23:                 <tr>
+    24:                   <td><%= appointment.id %></td>
+    25:                   <td><%= appointment.id %></td>
+  app/views/patients/_appointments_panel.html.erb:22:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110545835360'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110549848760'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.0ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:08:12 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1[0m
+  Rendered patients/_appointments_panel.html.erb (10.0ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.1ms)
+  Rendered patients/_recommendations_panel.html.erb (0.1ms)
+  Rendered patients/dashboard.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+Completed 200 OK in 455ms (Views: 378.9ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:12 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:08:13 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+  [1m[36mAppointment Load (30.1ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mAppointment Load (63.3ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE (date >= '2016-12-14 22:13:34.954602')
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:7)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:14:01.455717')[0m
+  Rendered patients/_appointments_panel.html.erb (9.9ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (30.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 442ms (Views: 396.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:01 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:14:02 +0600
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mAppointment Load (0.7ms)[0m  SELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.6ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:16:24.439874')[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  Rendered patients/_appointments_panel.html.erb (21.1ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (40.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 275ms (Views: 271.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:24 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:25 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:16:56.417354')
+  [1m[36mDoctor Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mDoctor Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  Rendered patients/_appointments_panel.html.erb (6.7ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 191ms (Views: 184.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:16:56 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:17:11.079652')[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mDoctor Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  Rendered patients/_appointments_panel.html.erb (5.1ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.1ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 204ms (Views: 197.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:11 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:17:30.217448')
+  [1m[36mDoctor Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mDoctor Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  Rendered patients/_appointments_panel.html.erb (4.6ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 180ms (Views: 176.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:17:30 +0600
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.5ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY `users`.`id` DESC LIMIT 1[0m
+  [1m[35mPatient Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Patient')  ORDER BY `users`.`id` DESC LIMIT 1
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:21:49 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:5)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mAppointment Load (0.7ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:21:50.283970')[0m
+  [1m[35mDoctor Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1
+  Rendered patients/_appointments_panel.html.erb (64.7ms)
+  Rendered patients/dashboard.html.erb within layouts/application (66.8ms)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 3.9ms)
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x007f87c50d9108>:0x007f87c47c17f0>
+Did you mean?  user_path):
+    22:             <% appointments.each do |appointment| %>
+    23:                 <tr>
+    24:                   <td><%= appointment.date.strftime('%d-%m-%Y') %></td>
+    25:                   <td><%= link_to appointment.doctor.full_name, users_path(appointment.doctor.id) %></td>
+    26:                 </tr>
+    27:             <% end %>
+    28:             </tbody>
+  app/views/patients/_appointments_panel.html.erb:25:in `block in _app_views_patients__appointments_panel_html_erb___50366548035659313_70110546827320'
+  app/views/patients/_appointments_panel.html.erb:22:in `_app_views_patients__appointments_panel_html_erb___50366548035659313_70110546827320'
+  app/views/patients/dashboard.html.erb:13:in `_app_views_patients_dashboard_html_erb___4568626359524107379_70110503080720'
+
+
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/macbook/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.0ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:21:58 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.6ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:21:58.883800')
+  [1m[36mDoctor Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mDoctor Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  Rendered patients/_appointments_panel.html.erb (7.7ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.1ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 193ms (Views: 188.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:21:59 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.4ms)[0m  SELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2
+  [1m[36mTimeSlot Load (0.4ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.3ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mDoctorProfile Load (0.3ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1
+  Rendered parts/_doctor_profile_top_summary.html.erb (11.5ms)
+  Rendered parts/_available_date.html.erb (26.0ms)
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2[0m
+  Rendered users/show.html.erb within layouts/application (44.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 275ms (Views: 240.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:05 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:06 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:06 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:06 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:06 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:06 +0600
+
+
+Started GET "/users/3" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.3ms)[0m  SELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3
+  [1m[36mTimeSlot Load (0.4ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.3ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1  [["doctor_id", 3], ["day", "Sunday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1  [["doctor_id", 3], ["day", "Sunday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mDoctorProfile Load (0.4ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 3 LIMIT 1
+  Rendered parts/_doctor_profile_top_summary.html.erb (1.5ms)
+  Rendered parts/_available_date.html.erb (19.2ms)
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 3[0m
+  Rendered users/show.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 204ms (Views: 193.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:09 +0600
+
+
+Started GET "/users/3" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.5ms)[0m  SELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3
+  [1m[36mTimeSlot Load (0.7ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.5ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1  [["doctor_id", 3], ["day", "Sunday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Sunday' LIMIT 1  [["doctor_id", 3], ["day", "Sunday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 3 AND `time_slots`.`day` = 'Saturday' LIMIT 1[0m  [["doctor_id", 3], ["day", "Saturday"]]
+  [1m[35mDoctorProfile Load (0.4ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 3 LIMIT 1
+  Rendered parts/_doctor_profile_top_summary.html.erb (1.4ms)
+  Rendered parts/_available_date.html.erb (14.0ms)
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 3[0m
+  Rendered users/show.html.erb within layouts/application (20.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 206ms (Views: 193.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:13 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.5ms)[0m  SELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2
+  [1m[36mTimeSlot Load (0.6ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.6ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mDoctorProfile Load (0.7ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1
+  Rendered parts/_doctor_profile_top_summary.html.erb (2.5ms)
+  Rendered parts/_available_date.html.erb (25.9ms)
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2[0m
+  Rendered users/show.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 216ms (Views: 204.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:33 +0600
+
+
+Started GET "/appointments/new?date=20161220&doctor_id=2&start_time=946670580" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+Processing by AppointmentsController#new as HTML
+  Parameters: {"date"=>"20161220", "doctor_id"=>"2", "start_time"=>"946670580"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mDoctor Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  Rendered appointments/_form.html.erb (4.4ms)
+  Rendered appointments/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 257ms (Views: 253.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:36 +0600
+
+
+Started POST "/appointments" for 127.0.0.1 at 2016-12-14 22:22:40 +0600
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1omkQahNlC9olosmzc/PvN1yltoEKx7NLPY2YVaxtLHxlBj41HdwLG08gb31Sggm454yICQTv/wIEg72EA9NoA==", "appointment"=>{"reason"=>"Nothing!", "date"=>"20, December 2016", "start_time"=>"2000-01-01 02:03:00 +0600", "end_time"=>"2000-01-01 02:03:00 +0600", "doctor_id"=>"2"}, "button"=>""}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `appointments` (`date`, `start_time`, `end_time`, `reason`, `doctor_id`, `patient_id`, `created_at`, `updated_at`) VALUES ('2016-12-20', '2000-01-01 02:03:00.000000', '2000-01-01 02:03:00.000000', 'Nothing!', 2, 1, '2016-12-14 22:22:40', '2016-12-14 22:22:40')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/dashboard?flash%5Bsuccess%5D=Appointment+Successfully+Created%21
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/users/dashboard?flash%5Bsuccess%5D=Appointment+Successfully+Created%21" for 127.0.0.1 at 2016-12-14 22:22:40 +0600
+Processing by UsersController#dashboard as HTML
+  Parameters: {"flash"=>{"success"=>"Appointment Successfully Created!"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/patients/dashboard
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:22:40 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.4ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:22:40.928254')
+  [1m[36mDoctor Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mDoctor Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered patients/_appointments_panel.html.erb (8.1ms)
+  Rendered patients/_messages_panel.html.erb (0.0ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 205ms (Views: 198.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:22:41 +0600
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:5)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:23:40.344970') AND `appointments`.`status` = 1
+  Rendered patients/_appointments_panel.html.erb (1.3ms)
+  Rendered patients/_messages_panel.html.erb (0.0ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+Completed 200 OK in 259ms (Views: 216.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:23:40 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:5)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND (date >= '2016-12-14 22:24:23.638525')
+  [1m[36mDoctor Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mDoctor Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered patients/_appointments_panel.html.erb (39.3ms)
+  Rendered patients/_messages_panel.html.erb (0.1ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (46.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 277ms (Views: 228.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:23 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:24 +0600
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:5)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND `appointments`.`status` = 1 AND (date >= '2016-12-14 22:24:56.665525')
+  Rendered patients/_appointments_panel.html.erb (1.9ms)
+  Rendered patients/_messages_panel.html.erb (0.0ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 234ms (Views: 189.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:56 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:24:57 +0600
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35mDoctor Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1
+  [1m[36mAppointment Load (0.7ms)[0m  [1mSELECT  `appointments`.* FROM `appointments`  ORDER BY `appointments`.`id` DESC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (25.9ms)[0m  [1mUPDATE `appointments` SET `status` = 1, `updated_at` = '2016-12-14 22:26:24' WHERE `appointments`.`id` = 5[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+
+
+Started GET "/patients/dashboard" for 127.0.0.1 at 2016-12-14 22:26:26 +0600
+Processing by PatientsController#dashboard as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mAppointment Load (0.5ms)[0m  SELECT `appointments`.* FROM `appointments` WHERE `appointments`.`patient_id` = 1 AND `appointments`.`status` = 1 AND (date >= '2016-12-14 22:26:26.891905')
+  [1m[36mDoctor Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`type` IN ('Doctor') AND `users`.`id` = 2 LIMIT 1[0m
+  Rendered patients/_appointments_panel.html.erb (26.5ms)
+  Rendered patients/_messages_panel.html.erb (0.0ms)
+  Rendered patients/_doctors_panel.html.erb (0.0ms)
+  Rendered patients/_recommendations_panel.html.erb (0.0ms)
+  Rendered patients/dashboard.html.erb within layouts/application (33.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 203ms (Views: 197.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:27 +0600
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.4ms)[0m  SELECT `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2
+  [1m[36mTimeSlot Load (0.6ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m
+  [1m[35mTimeSlot Load (0.4ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Tuesday' LIMIT 1  [["doctor_id", 2], ["day", "Tuesday"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `time_slots`.* FROM `time_slots` WHERE `time_slots`.`doctor_id` = 2 AND `time_slots`.`day` = 'Monday' LIMIT 1[0m  [["doctor_id", 2], ["day", "Monday"]]
+  [1m[35mDoctorProfile Load (0.3ms)[0m  SELECT  `doctor_profiles`.* FROM `doctor_profiles` WHERE `doctor_profiles`.`doctor_id` = 2 LIMIT 1
+  Rendered parts/_doctor_profile_top_summary.html.erb (12.2ms)
+  Rendered parts/_available_date.html.erb (27.0ms)
+  [1m[36mAppointment Load (0.4ms)[0m  [1mSELECT `appointments`.* FROM `appointments` WHERE `appointments`.`doctor_id` = 2[0m
+  Rendered users/show.html.erb within layouts/application (45.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 241ms (Views: 217.4ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:30 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+Processing by SearchController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered search/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 198ms (Views: 195.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/typeahead.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:40 +0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/typeahead.bundle.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/doctors.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-14 22:26:41 +0600
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/user.rb:5)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:Doctor> at /Users/macbook/hobby_space/nahins_projects/appointment_scheduler/app/models/doctor.rb:3)
