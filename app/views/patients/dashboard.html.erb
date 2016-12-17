@@ -41,15 +41,14 @@
     </div>
     <div class="row">
       <div class="col-md-12 mt20">
-        <%= render 'patients/messages_panel' %>
-
+        <%= render partial: 'patients/messages_panel', locals: {all_appointments: @all_appointments} %>
       </div>
     </div>
   </div>
   <div class="col-md-4">
     <div class="row">
       <div class="col-md-12">
-        <%= render 'patients/doctors_panel' %>
+        <%= render partial: 'patients/doctors_panel', locals: {doctors: @doctors} %>
       </div>
       <div class="col-md-12">
         <%= render 'recommendations_panel' %>

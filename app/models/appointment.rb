@@ -5,7 +5,8 @@ class Appointment < ActiveRecord::Base
   has_one :prescription
   has_many :problems, through: :prescription
 
-  enum status: [:initiated, :accepted, :rejected, :completed]
+  enum status: [:initiated, :accepted, :rejected, :completed, :cancelled]
 
   scope :upcoming, -> {self.accepted.where('date >= ?', Time.now)}
+  scope :todays, -> {self.accepted.where(date: Date.today)}
 end

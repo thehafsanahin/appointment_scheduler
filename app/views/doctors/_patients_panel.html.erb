@@ -3,33 +3,27 @@
     <h3 class="panel-title">Your Patients</h3>
   </div>
   <div class="panel-body reports-list">
-    <div class="table-responsive">
-      <table class="table table-hover">
-        <tr>
-          <th>Name</th>
-          <th>Reason</th>
-          <th>Date</th>
+    <% if connected_patients.present? %>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <tr>
+              <th>Patient</th>
+              <th>Reason</th>
+              <th>Last Visited</th>
+            </tr>
 
-        </tr>
-        <tr>
-          <td>Patient X</td>
-          <td>Regarding ..</td>
-          <td>23.10.2016</td>
-
-        </tr>
-        <tr>
-          <td>Patient Y</td>
-          <td>Regarding ..</td>
-          <td>23.10.2016</td>
-
-        </tr>
-      </table>
-      <div>
-        <a href="#">
-          Show all
-        </a>
-      </div>
-
-    </div>
+            <% connected_patients.each do |patient| %>
+                <% last_appointment = current_user.last_appointment_with(patient) %>
+                <tr>
+                  <td><%= patient.full_name %></td>
+                  <td><%= truncate(last_appointment.reason, length: 20) %></td>
+                  <td><%= last_appointment.date %></td>
+                </tr>
+            <% end %>
+          </table>
+        </div>
+    <% else %>
+      <i>You haven't visited any patients yet!</i>
+    <% end %>
   </div>
 </div>

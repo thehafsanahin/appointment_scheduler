@@ -4,6 +4,8 @@ class PatientsController < ApplicationController
   def dashboard
     @patient = current_user
     @appointments = current_user.appointments.upcoming
+    @doctors = current_user.connected_doctors
+    @all_appointments = current_user.appointments.order(date: :desc)
   end
 
   def index

@@ -21,7 +21,7 @@
             <tbody>
             <% appointments.each do |appointment| %>
                 <tr>
-                  <td><%= appointment.date.strftime('%d-%m-%Y') %></td>
+                  <td><%= appointment.date %></td>
                   <td><%= link_to appointment.doctor.full_name, user_path(appointment.doctor.id) %></td>
                 </tr>
             <% end %>

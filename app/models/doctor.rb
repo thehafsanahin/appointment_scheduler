@@ -1,12 +1,22 @@
 class Doctor < User
 
-  searchkick autocomplete: ['first_name', 'last_name']
+  searchkick autocomplete: %w(first_name last_name full_name specialty clinic_address)
 
   has_one :doctor_profile, dependent: :destroy
   has_many :time_slots, dependent: :destroy
   has_many :appointments, dependent: :destroy
   has_many :patients, through: :appointments
+
   accepts_nested_attributes_for :doctor_profile
+  delegate :education, :specialty, :experience, :practice_clinic_name, :clinic_address, :clinic_contact_no, :website, :consultation_fee, to: :doctor_profile
+
+  def connected_patients
+    patients.includes(:appointments).where(appointments: {status: Appointment.statuses[:completed]}).uniq
+  end
+
+  def last_appointment_with(patient)
+    appointments.completed.where(patient_id: patient.id).order(date: :desc).last
+  end
 
   def profile
     self.doctor_profile
@@ -42,8 +52,6 @@ class Doctor < User
 
       duration = time_slot.duration
       mini_time_slots = mini_time_slots(time_slot.start_time.to_i, time_slot.end_time.to_i, duration)
-      # raise "#{time_slot.start_time.to_i} - #{time_slot.duration} - #{time_slot.end_time.to_i}"
-      # raise mini_time_slots.inspect
       available_times_for_dates[int_date] = concat_date_with_slots(int_date, mini_time_slots)
     end
 
@@ -69,11 +77,20 @@ class Doctor < User
   def mini_time_slots(start_time, end_time, duration)
     mini_slots = []
     loop do
-      # raise "#{start_time} - #{duration} - #{end_time}"
       break if start_time > end_time
       mini_slots << start_time
       start_time += duration
     end
     mini_slots
+  end
+
+  def search_data
+    {
+        first_name: first_name,
+        last_name: last_name,
+        full_name: full_name,
+        specialty: specialty,
+        clinic_address: clinic_address
+    }
   end
 end

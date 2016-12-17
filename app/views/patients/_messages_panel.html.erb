@@ -1,40 +1,31 @@
 <div class="panel panel-default messages">
   <div class="panel-heading">
-    <h3 class="panel-title">Messages</h3>
+    <h3 class="panel-title">All Appointments</h3>
   </div>
   <div class="panel-body messages-list">
-    <div class="table-responsive">
-      <table class="table table-hover">
-        <thead>
-        <tr>
-          <th>Date</th>
-          <th>From</th>
-          <th>Subject</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>23.10.2014</td>
-          <td>Dr. R. K. Chowdhury</td>
-          <td>How are you? ...</td>
-        </tr>
-        <tr>
-          <td>22.10.2014</td>
-          <td>Dr. R. K. Chowdhury</td>
-          <td>Regarding Your ...</td>
-        </tr>
-        <tr>
-          <td>11.09.2014</td>
-          <td>Dr. M. R. Khan</td>
-          <td>Regarding Your ...</td>
-        </tr>
-        <tr>
-          <td>01.09.2014</td>
-          <td>Dr. M. R. Khan</td>
-          <td>Regarding Your ...</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
+    <% if all_appointments.present? %>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+            <tr>
+              <th>Date</th>
+              <th>Doctor</th>
+              <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% all_appointments.each do |appointment| %>
+                <tr>
+                  <td><%= humanize_date(appointment.date) %></td>
+                  <td><%= "Dr. #{appointment.doctor.full_name}" %></td>
+                  <td><%= status_with_icon(appointment) %></td>
+                </tr>
+            <% end %>
+            </tbody>
+          </table>
+        </div>
+    <% else %>
+        <i>You haven't requested for any appointment yet!</i>
+    <% end %>
   </div>
 </div>
